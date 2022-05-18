@@ -2,8 +2,8 @@
 FROM python:3.6
 
 # Copy contents into image
-WORKDIR /app
-COPY . /app
+WORKDIR /app-files
+COPY . .
 
 # Install pip dependencies from requirements
 RUN pip install -r "requirements.txt"
